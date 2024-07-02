@@ -2,6 +2,7 @@
 import streamlit as st
 import pandas as pd
 
+
 st.title('Spam-Projekt, IKT-SS24')
 st.subheader('Irina Ukhanova')
 st.header('Thema', divider='rainbow')
@@ -19,4 +20,5 @@ st.image('IKT_Projekt/img/SPAMprojekt.png', caption='Flussdiagramm der aktuellen
 
 st.header('Data Processing ', divider='rainbow')
 container4 = st.container(border=False)
-container4.write(st.page_link("https://huggingface.co/flair/ner-german-large", label="Name Entity Recognition"))
+st.page_link("https://huggingface.co/flair/ner-german-large", label="Name Entity Recognition German Large")
+
