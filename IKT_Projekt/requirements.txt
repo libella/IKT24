@@ -2,6 +2,6 @@ joblib
 matplotlib
 numpy
 pandas
-seaborn==0.11.2
+seaborn
 streamlit
 sklearn
