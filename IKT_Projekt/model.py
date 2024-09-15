@@ -16,8 +16,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 drive.mount('/content/drive')
 
 # Daten werden geladen
-file_path = '/content/drive/MyDrive/Colab Notebooks/ProjektSpam/spam_nichtspam_datensatz.csv'
-df = pd.read_csv(file_path)
+# file_path = '/content/drive/MyDrive/Colab Notebooks/ProjektSpam/spam_nichtspam_datensatz.csv'
+df = pd.read_csv("IKT_Projekt/spam_nichtspam_datensatz.csv")
 X = df[['message', 'mail']]  # Features
 y = df['spam']  # Zielvariable
 
