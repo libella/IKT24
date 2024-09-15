@@ -10,14 +10,14 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
 import numpy as np
-from google.colab import drive
+# from google.colab import drive
 # Text in Zahlenfeatures konvertieren
 from sklearn.feature_extraction.text import TfidfVectorizer
-drive.mount('/content/drive')
+# drive.mount('/content/drive')
 
 # Daten werden geladen
 # file_path = '/content/drive/MyDrive/Colab Notebooks/ProjektSpam/spam_nichtspam_datensatz.csv'
-df = pd.read_csv("IKT_Projekt/spam_nichtspam_datensatz.csv")
+df = pd.read_csv("spam_nichtspam_datensatz.csv")
 X = df[['message', 'mail']]  # Features
 y = df['spam']  # Zielvariable
 
