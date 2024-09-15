@@ -78,4 +78,4 @@ for i in range(len(df)):
 plt.show()
 
 #Model speichern
-joblib.dump(model, 'spam_model.joblib')
+joblib.dump(model, 'spam_model.sav')
