@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from prediction import predict
+
 
 st.title('Spam-Projekt, IKT-SS24')
 st.subheader('Irina Ukhanova')
